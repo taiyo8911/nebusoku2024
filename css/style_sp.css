@@ -1,0 +1,131 @@
+@font-face {
+    font-family: "JF-Dot-K14";
+    src: url("../fonts/JF-Dot-K14.ttf") format("truetype");
+}
+
+
+/* 共通 */
+* {
+    font-family: "JF-Dot-K14", serif;
+    color: #ffffff;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+body, p, div {
+    padding: 0;
+    margin: 0;
+}
+
+a:hover {
+    color: yellow;
+}
+
+.hover-yellow:hover {
+    color: yellow;
+}
+
+.han-font {
+    font-family: JF-Dot-Shinonome14, serif;
+    font-weight: 300;
+    font-style: normal;
+}
+
+
+/* イメージ */
+.image {
+    margin-bottom: 50px;
+}
+
+
+/* イントロダクション */
+.intro {
+    width: max-content;
+    margin: 0 auto;
+    margin-bottom: 200px;
+    font-weight: bolder;
+    text-align: left;
+}
+
+
+/* 概要 */
+.overview {
+    width: max-content;
+    margin: 0 auto;
+    margin-bottom: 200px;
+    padding: 20px;
+    font-weight: bolder;
+    text-align: left;
+    border: 4px solid #ffffff;
+}
+
+
+/* プログラム情報 */
+.programs {
+    margin: 0 auto;
+    margin-bottom: 200px;
+}
+
+.program-box {
+    width: 240px;
+    height: 200px;
+    margin: 2em auto;
+    border: 3px solid #ffffff;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.9rem;
+}
+
+.program-box-title {
+    width: 190px;
+    background-color: #000000;
+    border: 4px solid #ffffff;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    line-height: 1;
+    position: absolute;
+    top: -25px;
+    left: 20px;
+}
+
+
+
+/* 会場案内 */
+.access {
+    width: max-content;
+    margin: 0 auto;
+    margin-bottom: 200px;
+}
+
+
+/* 注意事項 */
+.notes {
+    font-weight: bolder;
+    font-size: 0.75rem;
+    text-align: left;
+    width: max-content;
+    margin: 0 auto;
+    margin-bottom: 200px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: 2px solid #ffffff;
+}
+
+
+/* クレジット */
+.credits {
+    width: max-content;
+    margin: 0 auto;
+    margin-bottom: 200px;
+    text-align: left;
+}
+
+.footer {
+    width: max-content;
+    margin: 0 auto;
+    margin-bottom: 40px;
+    font-size: 0.8rem;
+    text-align: left;
+}
