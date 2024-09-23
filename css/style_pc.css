@@ -57,6 +57,7 @@ a:hover {
     font-weight: bolder;
     font-size: 1.5rem;
     text-align: left;
+    padding: 40px;
     border: 5px solid #ffffff;
 }
 
@@ -110,7 +111,7 @@ a:hover {
     text-align: left;
     width: max-content;
     border: 2px solid #ffffff;
-    padding: 14px 30px;
+    padding: 30px;
     margin: 0 auto;
     margin-bottom: 200px;
 }
