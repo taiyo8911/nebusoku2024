@@ -1,3 +1,4 @@
+/* Webフォント */
 @font-face {
     font-family: "JF-Dot-K14";
     src: url("../fonts/JF-Dot-K14.ttf") format("truetype");
@@ -7,7 +8,6 @@
 /* 共通 */
 * {
     font-family: "JF-Dot-K14", serif;
-    color: #ffffff;
     box-sizing: border-box;
     text-align: center;
 }
@@ -43,7 +43,7 @@ a:hover {
 }
 
 
-/* 概要 */
+/* イベント情報 */
 .overview {
     width: max-content;
     margin: 0 auto;
@@ -56,9 +56,8 @@ a:hover {
 }
 
 
-/* プログラム情報 */
+/* プログラム */
 .programs {
-    margin: 0 auto;
     margin-bottom: 300px;
 }
 
@@ -83,9 +82,7 @@ a:hover {
     line-height: 1;
     position: absolute;
     top: -25px;
-    left: 20px;
 }
-
 
 
 /* 会場案内 */
@@ -95,7 +92,6 @@ a:hover {
     margin-bottom: 300px;
     font-size: 1.25rem;
 }
-
 
 
 /* 注意事項 */
@@ -111,17 +107,16 @@ a:hover {
 }
 
 
-
 /* クレジット */
 .credits {
     width: max-content;
     margin: 0 auto;
     margin-bottom: 300px;
-    font-size: 1rem;
     text-align: left;
 }
 
 
+/* フッター */
 .footer {
     width: max-content;
     margin: 0 auto;
