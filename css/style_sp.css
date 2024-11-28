@@ -12,9 +12,18 @@
     text-align: center;
 }
 
-body, p, div {
+body {
+    padding-top: 50px;
+}
+
+p, div {
     padding: 0;
     margin: 0;
+}
+
+ul {
+    list-style: none;
+    cursor: pointer;
 }
 
 a:hover {
@@ -23,6 +32,15 @@ a:hover {
 
 .hover-yellow:hover {
     color: yellow;
+}
+
+.program-box ul {
+    margin: 0;
+    padding: 0;
+}
+
+.navbar-dark .navbar-nav .nav-link:hover {
+    color: #FFFF00;
 }
 
 
@@ -36,6 +54,7 @@ a:hover {
 .intro {
     width: max-content;
     margin: 0 auto;
+    font-size: 13px;
     margin-bottom: 200px;
     font-weight: bolder;
     text-align: left;
