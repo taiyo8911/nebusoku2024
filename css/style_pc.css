@@ -62,10 +62,14 @@ a:hover {
 
 
 /* イベント情報 */
+.info_wrap {
+    margin-bottom: 300px;
+
+}
+
 .overview {
     width: max-content;
     margin: 0 auto;
-    margin-bottom: 300px;
     font-weight: bolder;
     font-size: 1.5rem;
     text-align: left;
@@ -73,9 +77,13 @@ a:hover {
     border: 5px solid #ffffff;
 }
 
+/* ヘッドライナー */
+.headliner {
+    margin-bottom: 300px;
+}
 
 /* プログラム */
-.programs {
+.program_wrap {
     margin-bottom: 300px;
 }
 
@@ -90,6 +98,10 @@ a:hover {
     justify-content: center;
 }
 
+.los-box {
+    height: 400px;
+}
+
 .program-box-title {
     width: 310px;
     background-color: #000000;
@@ -101,7 +113,6 @@ a:hover {
     position: absolute;
     top: -25px;
 }
-
 
 /* 会場案内 */
 .access {
@@ -129,7 +140,6 @@ a:hover {
 .credits {
     width: max-content;
     margin: 0 auto;
-    margin-bottom: 300px;
     text-align: left;
 }
 
