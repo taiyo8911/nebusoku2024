@@ -59,10 +59,35 @@ a:hover {
     margin-bottom: 140px;
 }
 
+/* 画像に文字重ね */
+.time_cloud img {
+    width: 30%;
+}
+
+.time_cloud {
+    position: relative;
+    height: 30%;
+}
+
+.time_cloud p {
+    position: absolute;
+    top: 38%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    /*ベンダープレフィックス*/
+    -webkit-transform: translate(-50%, -50%);
+    /*ベンダープレフィックス*/
+    transform: translate(-50%, -50%);
+    /*センター寄せの修正*/
+    color: blue;
+    font-size: 1.25rem;
+    font-weight: bolder;
+}
+
 /* 内部リンクのアンカー調整 */
 .anchor {
-    padding-top: 80px;
-    margin-top: -80px;
+    padding-top: 70px;
+    margin-top: -70px;
 }
 
 /* イントロダクション */
@@ -103,7 +128,8 @@ a:hover {
 .program-box {
     width: 80%;
     height: 200px;
-    margin: 3em auto;
+    margin: 0 auto;
+    margin-bottom: 3em;
     border: 3px solid #ffffff;
     position: relative;
     display: flex;
