@@ -43,6 +43,17 @@ a:hover {
     color: #FFFF00;
 }
 
+/* ナビメニュー */
+.dropdown {
+    width: max-content;
+    margin: 0 auto;
+}
+
+.dropdown-item-text {
+    text-align: left;
+    font-size: 0.65rem;
+}
+
 /* イメージ */
 .image {
     margin-bottom: 140px;
