@@ -49,6 +49,11 @@ a:hover {
     margin-bottom: 120px;
 }
 
+/* 内部リンクのアンカー調整 */
+.anchor {
+    padding-top: 70px;
+    margin-top: -70px;
+}
 
 /* イントロダクション */
 .intro {
@@ -120,7 +125,6 @@ a:hover {
     margin-bottom: 300px;
     font-size: 1.25rem;
 }
-
 
 /* 注意事項 */
 .notes {
